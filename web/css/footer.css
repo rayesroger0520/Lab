@@ -1,0 +1,37 @@
+
+.footer {
+    background-color: white;
+}
+.footer-wrapper {
+    display: flex;
+    background-color: white;
+    padding: 15px 20px;
+}
+.footer-border {
+    background-color: white;
+    margin: 0 20px;
+    border-top: 1px solid gray;
+}
+.simple-site-link {
+    font-size: small;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 50%;
+}
+.random-number {
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 50%;
+    text-align-last: right;
+    font-size: 0;
+}
+.random-number > span {
+    display: flex;
+    font-weight: bold;
+    border: 1px solid black;
+    padding: 1px 2px;
+    border-radius: 5px;
+    font-size: small;
+    box-shadow: 0px 0px 4px 2px gray;
+}
